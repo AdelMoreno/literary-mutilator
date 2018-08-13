@@ -5,7 +5,7 @@ function highlightAll() {
 }
 
 function replaceAll() {
-	var r = /(\w+) (\w+)/gi;
+	var r = /\w{5,}\b/gi;
 	var string = document.getElementById("dog").innerHTML;
 	var res = string.replace(r, "BORK");
 	document.getElementById("dog").innerHTML = res;
