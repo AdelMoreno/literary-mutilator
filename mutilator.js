@@ -1,6 +1,6 @@
 function highlightAll() {
  	var string = document.getElementById("words").innerHTML;
- 	var res = string.replace(/BORK/gi, "<span class='highlight'>bork</span>");
+ 	var res = string.replace(/BORK/gi, "<span class='highlight'>BORK</span>");
  	document.getElementById("words").innerHTML = res;
 }
 
