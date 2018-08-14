@@ -19,3 +19,13 @@ function font() {
 	document.getElementById("words").style.fontFamily="Brush Script MT";
 	document.getElementById("words").style.fontSize="150%"
 }
+
+
+window.addEventListener("keydown", checkKeyPressed, false);
+
+function checkKeyPressed() {
+	if (key = "z" ) {
+		alert("You sly fox!");
+	}
+	
+}
